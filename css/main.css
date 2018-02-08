@@ -1,0 +1,51 @@
+body {
+  background: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 3%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.frostGlass {
+  text-align: center;
+  color: white;
+  padding: 25px;
+  width: 100%;
+  background-color: rgba(100,100,100,0.5);
+  -webkit-backdrop-filter: saturate(500%) blur(20px);
+  margin-bottom: 20px;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.profileImg {
+  text-align: center;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.noPaddingLeft {
+  padding-left: 0%;
+}
+
+.noPaddingRight {
+  padding-right: 0%;
+}
