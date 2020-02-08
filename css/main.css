@@ -29,6 +29,7 @@ p {
   -webkit-backdrop-filter: saturate(500%) blur(20px);
   margin-bottom: 20px;
   backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 5px;
 }
 
 .profileImg {
