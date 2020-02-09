@@ -22,13 +22,25 @@ p {
 
 .frostGlass {
   text-align: center;
-  color: white;
+  color: black;
   padding: 25px;
   width: 100%;
-  background-color: rgba(100,100,100,0.5);
+  background-color: rgba(255, 255, 255, 0.616);
   -webkit-backdrop-filter: saturate(500%) blur(20px);
-  margin-bottom: 20px;
   backdrop-filter: saturate(180%) blur(20px);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.frostGlassDark {
+  color: white;
+  background-color: rgba(53, 53, 53, 0.616);
+  text-align: center;
+  padding: 25px;
+  width: 100%;
+  -webkit-backdrop-filter: saturate(500%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  margin-bottom: 20px;
   border-radius: 5px;
 }
 
