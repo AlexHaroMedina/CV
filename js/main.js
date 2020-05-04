@@ -52,4 +52,3 @@ function drawChart() {
     var chart = new google.visualization.BarChart(document.getElementById('skillsChart'));
     chart.draw(data, options);
 }
-
